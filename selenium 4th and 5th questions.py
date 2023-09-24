@@ -2,7 +2,15 @@
 # coding: utf-8
 
 # In[19]:
-
+# Q4: Scrape data of first 100 sunglasses listings on flipkart.com. You have to scrape four attributes:
+#6. Brand
+#7. ProductDescription
+#8. Price
+#The attributes which you have to scrape is ticked marked in the below image.
+#4. After scraping data from the first page, go to the “Next” Button at the bottom other page , then click on it.
+#5. Now scrape data from this page as usual
+#6. Repeat this until you get data for 100sunglasses.
+#Note: That all of the above steps have to be done by coding only and not manually.
 
 get_ipython().system('pip install selenium')
 
